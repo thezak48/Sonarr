@@ -52,7 +52,8 @@ export default {
     isFetching: false,
     isPopulated: false,
     schema: {
-      removeTagsAutomatically: false
+      removeTagsAutomatically: false,
+      tags: []
     },
     error: null,
     isDeleting: false,
